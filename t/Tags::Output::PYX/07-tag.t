@@ -3,6 +3,7 @@ use English qw(-no_match_vars);
 use Tags::Output::PYX;
 use Test::More 'tests' => 6;
 
+# Test.
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -18,6 +19,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -35,6 +37,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -60,6 +63,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 my $long_data = 'a' x 1000;
 $obj = Tags::Output::PYX->new;
 $obj->put(
@@ -76,6 +80,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $long_data = 'aaaa ' x 1000;
 $obj = Tags::Output::PYX->new;
 $obj->put(
@@ -92,6 +97,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj = Tags::Output::PYX->new;
 eval {
 	$obj->put(

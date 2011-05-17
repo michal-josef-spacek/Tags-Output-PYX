@@ -6,6 +6,7 @@ use Test::More 'tests' => 2;
 # Include helpers.
 do File::Object->new->up->file('get_stdout.inc')->serialize;
 
+# Test.
 my $obj = Tags::Output::PYX->new(
 	'output_handler' => \*STDOUT,
 );
@@ -22,6 +23,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj = Tags::Output::PYX->new(
 	'auto_flush' => 1,
 	'output_handler' => \*STDOUT,

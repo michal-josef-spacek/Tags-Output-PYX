@@ -2,6 +2,7 @@
 use Tags::Output::PYX;
 use Test::More 'tests' => 6;
 
+# Test.
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -15,6 +16,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj->reset;
 $obj->put(
 	['b', 'MAIN'],
@@ -30,6 +32,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj->reset;
 $obj->put(
 	['b', 'MAIN'],
@@ -51,6 +54,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj->reset;
 $obj->put(
 	['b', 'main'],
@@ -64,6 +68,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj->reset;
 $obj->put(
 	['b', 'main'],
@@ -79,6 +84,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
+# Test.
 $obj->reset;
 $obj->put(
 	['b', 'main'],
