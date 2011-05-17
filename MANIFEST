@@ -1,0 +1,19 @@
+CHANGES
+Makefile.PL
+MANIFEST			This list of files
+PYX.pm
+t/get_stdout.inc
+t/Tags::Output::PYX/00-use.t
+t/Tags::Output::PYX/01-version.t
+t/Tags::Output::PYX/02-pod_coverage.t
+t/Tags::Output::PYX/03-pod.t
+t/Tags::Output::PYX/04-constructor.t
+t/Tags::Output::PYX/05-comment.t
+t/Tags::Output::PYX/06-simple_tag.t
+t/Tags::Output::PYX/07-tag.t
+t/Tags::Output::PYX/08-instruction.t
+t/Tags::Output::PYX/09-cdata.t
+t/Tags::Output::PYX/10-raw.t
+t/Tags::Output::PYX/11-output_handler.t
+t/Tags::Output::PYX/12-finalize.t
+t/Tags::Output::PYX/13-open_tags.t
