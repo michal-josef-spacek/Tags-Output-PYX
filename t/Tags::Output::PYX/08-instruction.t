@@ -2,7 +2,6 @@
 use Tags::Output::PYX;
 use Test::More 'tests' => 1;
 
-print "Testing: Instruction.\n";
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['i', 'perl'],

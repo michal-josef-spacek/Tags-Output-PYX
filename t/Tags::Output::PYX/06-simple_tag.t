@@ -2,7 +2,6 @@
 use Tags::Output::PYX;
 use Test::More 'tests' => 6;
 
-print "Testing: Simple tag without parameters (sgml version).\n";
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -16,7 +15,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Simple tag with parameters (sgml version).\n";
 $obj->reset;
 $obj->put(
 	['b', 'MAIN'],
@@ -32,7 +30,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Simple tag after simple tag (sgml version).\n";
 $obj->reset;
 $obj->put(
 	['b', 'MAIN'],
@@ -54,7 +51,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Simple tag without parameters (xml version).\n";
 $obj->reset;
 $obj->put(
 	['b', 'main'],
@@ -68,7 +64,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Simple tag with parameters (xml version).\n";
 $obj->reset;
 $obj->put(
 	['b', 'main'],
@@ -84,7 +79,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Simple tag after simple tag (xml version).\n";
 $obj->reset;
 $obj->put(
 	['b', 'main'],

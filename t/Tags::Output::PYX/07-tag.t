@@ -3,7 +3,6 @@ use English qw(-no_match_vars);
 use Tags::Output::PYX;
 use Test::More 'tests' => 6;
 
-print "Testing: Normal tag without parameters.\n";
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -19,7 +18,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Normal tag with parameters.\n";
 $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -37,7 +35,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Normal tag after normal tag.\n";
 $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
@@ -63,7 +60,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Normal tag with long data.\n";
 my $long_data = 'a' x 1000;
 $obj = Tags::Output::PYX->new;
 $obj->put(
@@ -96,7 +92,6 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-print "Testing: Bad ending tag.\n";
 $obj = Tags::Output::PYX->new;
 eval {
 	$obj->put(

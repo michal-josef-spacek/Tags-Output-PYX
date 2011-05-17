@@ -2,7 +2,6 @@
 use Tags::Output::PYX;
 use Test::More 'tests' => 1;
 
-print "Testing: Raw data.\n";
 my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['r', '<?xml version="1.1"?>'."\n"],
