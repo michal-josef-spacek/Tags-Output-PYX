@@ -1,9 +1,9 @@
 # Modules.
-use Tags2::Output::PYX;
+use Tags::Output::PYX;
 use Test::More 'tests' => 6;
 
 print "Testing: Simple tag without parameters (sgml version).\n";
-my $obj = Tags2::Output::PYX->new;
+my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['b', 'MAIN'],
 	['e', 'MAIN'],

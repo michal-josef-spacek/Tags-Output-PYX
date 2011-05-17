@@ -1,9 +1,9 @@
 # Modules.
-use Tags2::Output::PYX;
+use Tags::Output::PYX;
 use Test::More 'tests' => 1;
 
 print "Testing: Raw data.\n";
-my $obj = Tags2::Output::PYX->new;
+my $obj = Tags::Output::PYX->new;
 $obj->put(
 	['r', '<?xml version="1.1"?>'."\n"],
 );

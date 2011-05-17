@@ -1,9 +1,9 @@
 # Modules.
-use Tags2::Output::PYX;
+use Tags::Output::PYX;
 use Test::More 'tests' => 4;
 
 print "Testing: open_tags() method.\n";
-my $obj = Tags2::Output::PYX->new;
+my $obj = Tags::Output::PYX->new;
 my @ret = $obj->open_tags;
 is_deeply(\@ret, []);
 

@@ -1,13 +1,13 @@
 # Modules.
 use File::Object;
-use Tags2::Output::PYX;
+use Tags::Output::PYX;
 use Test::More 'tests' => 2;
 
 # Include helpers.
 do File::Object->new->up->file('get_stdout.inc')->serialize;
 
 print "Testing: Output handler.\n";
-my $obj = Tags2::Output::PYX->new(
+my $obj = Tags::Output::PYX->new(
 	'output_handler' => \*STDOUT,
 );
 my $ret = get_stdout($obj, 1,
@@ -23,7 +23,7 @@ END
 chomp $right_ret;
 is($ret, $right_ret);
 
-$obj = Tags2::Output::PYX->new(
+$obj = Tags::Output::PYX->new(
 	'auto_flush' => 1,
 	'output_handler' => \*STDOUT,
 );

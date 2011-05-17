@@ -1,14 +1,14 @@
-package Tags2::Output::PYX;
+package Tags::Output::PYX;
 
 # Pragmas.
-use base qw(Tags2::Output::Core);
+use base qw(Tags::Output::Core);
 use strict;
 use warnings;
 
 # Modules.
 use Error::Simple::Multiple qw(err);
 use Readonly;
-use Tags2::Utils qw(encode_newline);
+use Tags::Utils qw(encode_newline);
 
 # Constants.
 Readonly::Scalar my $EMPTY_STR => q{};
@@ -100,7 +100,7 @@ __END__
 
 =head1 NAME
 
- Tags2::Output::PYX - PYX class for line oriented output for 'Tags2'.
+ Tags::Output::PYX - PYX class for line oriented output for 'Tags'.
 
 =head1 SYNOPSYS
 
@@ -179,19 +179,19 @@ __END__
 
 L<Error::Simple::Multiple(3pm)>,
 L<Readonly(3pm)>,
-L<Tags2::Utils(3pm)>.
+L<Tags::Utils(3pm)>.
 
 =head1 SEE ALSO
 
-L<Tags2(3pm)>,
-L<Tags2::Output::Core(3pm)>,
-L<Tags2::Output::ESIS(3pm)>,
-L<Tags2::Output::Indent(3pm)>,
-L<Tags2::Output::Indent2(3pm)>,
-L<Tags2::Output::LibXML(3pm)>,
-L<Tags2::Output::Raw(3pm)>,
-L<Tags2::Output::SESIS(3pm)>,
-L<Tags2::Utils(3pm)>.
+L<Tags(3pm)>,
+L<Tags::Output::Core(3pm)>,
+L<Tags::Output::ESIS(3pm)>,
+L<Tags::Output::Indent(3pm)>,
+L<Tags::Output::Indent2(3pm)>,
+L<Tags::Output::LibXML(3pm)>,
+L<Tags::Output::Raw(3pm)>,
+L<Tags::Output::SESIS(3pm)>,
+L<Tags::Utils(3pm)>.
 
 =head1 AUTHOR
 
