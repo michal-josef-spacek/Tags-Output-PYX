@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 # Modules.
-use Error::Simple::Multiple qw(err);
+use Error::Pure qw(err);
 use Readonly;
 use Tags::Utils qw(encode_newline);
 
@@ -177,7 +177,7 @@ __END__
 
 =head1 DEPENDENCIES
 
-L<Error::Simple::Multiple(3pm)>,
+L<Error::Pure(3pm)>,
 L<Readonly(3pm)>,
 L<Tags::Utils(3pm)>.
 
