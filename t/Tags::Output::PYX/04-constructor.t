@@ -1,7 +1,7 @@
 # Modules.
 use English qw(-no_match_vars);
 use Tags::Output::PYX;
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 4;
 
 # Test.
 eval {
@@ -23,5 +23,4 @@ is($EVAL_ERROR, 'Output handler is bad file handler.'."\n");
 
 # Test.
 my $obj = Tags::Output::PYX->new;
-ok(defined $obj);
-ok($obj->isa('Tags::Output::PYX'));
+isa_ok($obj, 'Tags::Output::PYX');
