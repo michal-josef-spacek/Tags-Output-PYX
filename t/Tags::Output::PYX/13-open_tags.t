@@ -1,3 +1,7 @@
+# Pragmas.
+use strict;
+use warnings;
+
 # Modules.
 use Tags::Output::PYX;
 use Test::More 'tests' => 4;
