@@ -7,7 +7,7 @@ WriteMakefile(
 	'NAME' => 'Tags::Output::PYX',
 	'PREREQ_PM' => {
 		'Class::Utils' => 0.01,
-		'Error::Pure' => 0.05,
+		'Error::Pure' => 0.01,
 		'File::Object' => 0,
 		'Readonly' => 0,
 		'Tags' => 0.01,
