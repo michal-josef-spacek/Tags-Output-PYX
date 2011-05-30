@@ -7,7 +7,7 @@ t/Tags::Output::PYX/00-use.t
 t/Tags::Output::PYX/01-version.t
 t/Tags::Output::PYX/02-pod_coverage.t
 t/Tags::Output::PYX/03-pod.t
-t/Tags::Output::PYX/04-constructor.t
+t/Tags::Output::PYX/04-new.t
 t/Tags::Output::PYX/05-comment.t
 t/Tags::Output::PYX/06-simple_tag.t
 t/Tags::Output::PYX/07-tag.t
