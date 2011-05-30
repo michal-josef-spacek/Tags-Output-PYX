@@ -2,7 +2,6 @@ CHANGES
 Makefile.PL
 MANIFEST			This list of files
 PYX.pm
-t/get_stdout.inc
 t/Tags::Output::PYX/00-use.t
 t/Tags::Output::PYX/01-version.t
 t/Tags::Output::PYX/02-pod_coverage.t
