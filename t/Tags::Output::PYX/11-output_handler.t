@@ -10,6 +10,7 @@ use Test::Output;
 
 # Test.
 my $obj = Tags::Output::PYX->new(
+	'auto_flush' => 0,
 	'output_handler' => \*STDOUT,
 );
 my $right_ret = <<'END';
@@ -36,13 +37,13 @@ $obj = Tags::Output::PYX->new(
 	'auto_flush' => 1,
 	'output_handler' => \*STDOUT,
 );
-$obj->put(
-	['b', 'MAIN'],
-	['d', 'data'],
-	['e', 'MAIN'],
-);
 stdout_is(
 	sub {
+		$obj->put(
+			['b', 'MAIN'],
+			['d', 'data'],
+			['e', 'MAIN'],
+		);
 		$obj->flush;
 		return;
 	},
