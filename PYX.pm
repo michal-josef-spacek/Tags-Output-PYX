@@ -168,8 +168,7 @@ __END__
 =head1 ERRORS
 
  Mine:
-   Ending bad tag: '%s' in block of tag '%s'.
-   Unknown parameter '%s'.
+         Ending bad tag: '%s' in block of tag '%s'.
 
 =head1 EXAMPLE
 
