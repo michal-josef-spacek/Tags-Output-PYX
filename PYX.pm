@@ -119,9 +119,9 @@ __END__
 
 =over 8
 
-=item C<new()>
+=item C<new(%parameters)>
 
- TODO
+ Constructor.
 
 =over 8
 
@@ -173,6 +173,13 @@ __END__
 
 =head1 EXAMPLE
 
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Tags::Output::PYX;
+
  TODO
 
 =head1 DEPENDENCIES
@@ -185,13 +192,7 @@ L<Tags::Utils(3pm)>.
 
 L<Tags(3pm)>,
 L<Tags::Output::Core(3pm)>,
-L<Tags::Output::ESIS(3pm)>,
-L<Tags::Output::Indent(3pm)>,
-L<Tags::Output::Indent2(3pm)>,
-L<Tags::Output::LibXML(3pm)>,
-L<Tags::Output::Raw(3pm)>,
-L<Tags::Output::SESIS(3pm)>,
-L<Tags::Utils(3pm)>.
+L<Tags::Output::Raw(3pm)>.
 
 =head1 AUTHOR
 
