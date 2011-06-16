@@ -11,6 +11,7 @@ WriteMakefile(
 	'BUILD_REQUIRES' => {
 		'File::Object' => 0,
 		'Test::More' => 0,
+		'Test::Output' => 0,
 		'Test::Pod' => 0,
 		'Test::Pod::Coverage' => 0,
 	},
