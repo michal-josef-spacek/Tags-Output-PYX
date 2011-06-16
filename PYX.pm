@@ -104,6 +104,7 @@ __END__
 
 =head1 SYNOPSYS
 
+ use Tags::Output::PYX;
  TODO
 
 =head1 PYX LINE CHARS
