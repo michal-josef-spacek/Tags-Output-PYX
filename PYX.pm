@@ -184,15 +184,15 @@ __END__
 
 =head1 DEPENDENCIES
 
-L<Error::Pure(3pm)>,
-L<Readonly(3pm)>,
-L<Tags::Utils(3pm)>.
+L<Error::Pure>,
+L<Readonly>,
+L<Tags::Utils>.
 
 =head1 SEE ALSO
 
-L<Tags(3pm)>,
-L<Tags::Output::Core(3pm)>,
-L<Tags::Output::Raw(3pm)>.
+L<Tags>,
+L<Tags::Output::Core>,
+L<Tags::Output::Raw>.
 
 =head1 AUTHOR
 
