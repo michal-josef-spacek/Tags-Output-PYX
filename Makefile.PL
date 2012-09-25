@@ -23,7 +23,7 @@ WriteMakefile(
 	'PREREQ_PM' => {
 		'Error::Pure' => 0.01,
 		'Readonly' => 0,
-		'Tags::Output::Core' => 0.01,
+		'Tags::Output' => 0.01,
 		'Tags::Utils' => 0.01,
 	},
 	'VERSION' => 0.01,
