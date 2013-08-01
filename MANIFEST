@@ -1,5 +1,5 @@
-CHANGES
-Makefile.PL
+Changes
+makefile.PL
 MANIFEST			This list of files
 PYX.pm
 t/Tags::Output::PYX/00-use.t
