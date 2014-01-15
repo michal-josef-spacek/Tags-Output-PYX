@@ -173,7 +173,19 @@ __END__
 
 =head1 ERRORS
 
- Mine:
+ new():
+         Auto-flush can't use without output handler.
+         Output handler is bad file handler.
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
+
+ flush():
+         Cannot write to output handler.
+
+ put():
+         Bad data.
+         Bad type of data.
+         Bad number of arguments. 'Tags' structure %s 
          Ending bad tag: '%s' in block of tag '%s'.
 
 =head1 EXAMPLE
