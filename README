@@ -94,7 +94,7 @@ EXAMPLE
      # )tag
 
 DEPENDENCIES
-    Error::Pure, Readonly, Tags::Utils.
+    Error::Pure, Readonly, Tags::Output, Tags::Utils.
 
 SEE ALSO
     Tags, Tags::Output, Tags::Output::Raw.
