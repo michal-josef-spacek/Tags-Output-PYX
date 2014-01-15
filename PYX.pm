@@ -133,19 +133,32 @@ __END__
 =item * C<auto_flush>
 
  Auto flush flag.
- Default is 0.
+ Default value is 0.
+
+=item * C<output_callback>
+
+ Output callback.
+ Default value is undef.
 
 =item * C<output_handler>
 
- TODO
+ Set output handler.
+ Default value is undef.
 
 =item * C<output_sep>
 
- TODO
+ Output separator.
+ Default value is newline.
 
 =item * C<skip_bad_data>
 
- TODO
+ Skip bad tags.
+ Default value is 0.
+
+=item * C<strict_instruction>
+
+ Strict instruction.
+ Default value is 1.
 
 =back
 
