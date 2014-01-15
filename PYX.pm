@@ -186,6 +186,7 @@ __END__
 
 L<Error::Pure>,
 L<Readonly>,
+L<Tags::Output>,
 L<Tags::Utils>.
 
 =head1 SEE ALSO
