@@ -1,0 +1,79 @@
+NAME
+     Tags::Output::PYX - PYX class for line oriented output for 'Tags'.
+
+SYNOPSYS
+     use Tags::Output::PYX;
+     TODO
+
+PYX LINE CHARS
+     ?  - Instruction.
+     (  - Open tag.
+     )  - Close tag.
+     A  - Attribute.
+     -  - Normal data.
+
+METHODS
+    "new(%parameters)"
+             Constructor.
+
+            *       "auto_flush"
+
+                     Auto flush flag.
+                     Default is 0.
+
+            *       "output_handler"
+
+                     TODO
+
+            *       "output_sep"
+
+                     TODO
+
+            *       "skip_bad_data"
+
+                     TODO
+
+    "finalize()"
+             TODO
+
+    "flush()"
+             TODO
+
+    "open_tags()"
+             TODO
+
+    "put()"
+             TODO
+
+    "reset()"
+             TODO
+
+ERRORS
+     Mine:
+             Ending bad tag: '%s' in block of tag '%s'.
+
+EXAMPLE
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use Tags::Output::PYX;
+
+     TODO
+
+DEPENDENCIES
+    Error::Pure, Readonly, Tags::Utils.
+
+SEE ALSO
+    Tags, Tags::Output, Tags::Output::Raw.
+
+AUTHOR
+    Michal Špaček skim@cpan.org
+
+LICENSE AND COPYRIGHT
+    BSD license.
+
+VERSION
+    0.01
+

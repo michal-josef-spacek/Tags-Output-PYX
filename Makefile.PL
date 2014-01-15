@@ -3,31 +3,30 @@ use strict;
 use warnings;
 
 # Modules.
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
 
 # Definition.
-WriteMakefile(
-	'AUTHOR' => 'Michal Špaček <skim@cpan.org>',
-	'BUILD_REQUIRES' => {
-		'File::Object' => 0,
-		'Test::More' => 0,
-		'Test::Output' => 0,
-		'Test::Pod' => 0,
-		'Test::Pod::Coverage' => 0,
-	},
-	'CONFIGURE_REQUIRES' => {
-		'ExtUtils::MakeMaker' => 0,
-	},
-	'LICENSE' => 'bsd',
-	'NAME' => 'Tags::Output::PYX',
-	'PREREQ_PM' => {
-		'Error::Pure' => 0.01,
-		'Readonly' => 0,
-		'Tags::Output' => 0.01,
-		'Tags::Utils' => 0.01,
-	},
-	'VERSION' => 0.01,
-	'test' => {
-		'TESTS' => 't/Tags::Output::PYX/*.t',
-	},
-);
+abstract "PYX class for line oriented output for 'Tags'.";
+author 'Michal Špaček <skim@cpan.org>';
+license 'bsd';
+name 'Tags-Output-PYX';
+readme_from 'PYX.pm';
+requires 'Error::Pure' => 0;
+requires 'Readonly' => 0;
+requires 'Tags::Output' => 0;
+requires 'Tags::Utils' => 0;
+requires 'perl' => '5.6.2';
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=Tags-Output-PYX';
+resources 'homepage' => 'https://github.com/tupinek/Tags-Output-PYX';
+resources 'repository' => 'git://github.com/tupinek/Tags-Output-PYX';
+test_requires 'File::Object' => 0.05;
+test_requires 'Test::More' => 0;
+test_requires 'Test::NoWarnings' => 0;
+test_requires 'Test::Pod' => 0;
+test_requires 'Test::Pod::Coverage' => 0;
+tests_recursive;
+version '0.01';
+
+# Run.
+WriteAll();
