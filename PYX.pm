@@ -105,7 +105,12 @@ __END__
 =head1 SYNOPSYS
 
  use Tags::Output::PYX;
- TODO
+ my $obj = Tags::Output::PYX->new(%parameters);
+ $obj->finalize;
+ my $ret = $obj->flush($reset_flag);
+ my @tags = $obj->open_tags;
+ $obj->put(@data);
+ $obj->reset;
 
 =head1 PYX LINE CHARS
 
