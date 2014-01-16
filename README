@@ -54,13 +54,13 @@ METHODS
     "finalize()"
              TODO
 
-    "flush()"
+    "flush($reset_flag)"
              TODO
 
     "open_tags()"
              TODO
 
-    "put()"
+    "put(@data)"
              TODO
 
     "reset()"

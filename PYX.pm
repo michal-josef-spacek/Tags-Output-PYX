@@ -166,7 +166,7 @@ __END__
 
  TODO
 
-=item C<flush()>
+=item C<flush($reset_flag)>
 
  TODO
 
@@ -174,7 +174,7 @@ __END__
 
  TODO
 
-=item C<put()>
+=item C<put(@data)>
 
  TODO
 
