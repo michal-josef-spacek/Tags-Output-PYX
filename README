@@ -52,19 +52,26 @@ METHODS
                      Default value is 1.
 
     "finalize()"
-             TODO
+             Finalize Tags output.
+             Automaticly puts end of all opened tags.
+             Returns undef.
 
     "flush($reset_flag)"
-             TODO
+             Flush tags in object.
+             If defined 'output_handler' flush to its.
+             Or returns code.
+             If enabled $reset_flag, then resets internal variables via reset method.
 
     "open_tags()"
-             TODO
+             Returns array of opened tags.
 
     "put(@data)"
-             TODO
+             Put tags code in tags format.
+             Returns undef.
 
     "reset()"
-             TODO
+             Resets internal variables.
+             Returns undef.
 
 ERRORS
      new():
