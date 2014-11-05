@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract "PYX class for line oriented output for 'Tags'.";
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Tags-Output-PYX';
 readme_from 'PYX.pm';

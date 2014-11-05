@@ -1,7 +1,7 @@
 ---
 abstract: "PYX class for line oriented output for 'Tags'."
 author:
-  - 'Michal Špaček <skim@cpan.org>'
+  - 'Michal Spacek <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
   File::Object: 0.05
