@@ -3,10 +3,12 @@ abstract: "PYX class for line oriented output for 'Tags'."
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
+  English: 0
   ExtUtils::MakeMaker: 6.36
   File::Object: 0.05
   Test::More: 0
   Test::NoWarnings: 0
+  Test::Output: 1.02
   Test::Pod: 0
   Test::Pod::Coverage: 0
 configure_requires:
@@ -27,9 +29,9 @@ no_index:
 requires:
   Error::Pure: 0
   Readonly: 0
-  Tags::Output: 0
+  Tags::Output: 0.02
   Tags::Utils: 0
-  perl: 5.6.2
+  perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Tags-Output-PYX
   homepage: https://github.com/tupinek/Tags-Output-PYX
