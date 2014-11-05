@@ -15,6 +15,7 @@ MANIFEST			This list of files
 META.yml
 PYX.pm
 README
+SIGNATURE
 t/Tags-Output-PYX/00-use.t
 t/Tags-Output-PYX/01-version.t
 t/Tags-Output-PYX/02-pod_coverage.t
