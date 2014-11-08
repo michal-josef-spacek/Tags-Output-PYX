@@ -1,0 +1,11 @@
+TODO
+====
+1. Docela neprakticke je dat komentar mezi zacatek tagu a atribut. Pak je
+    error. Bylo by dobre to presunout za/pred tag.
+Je dobre to tady resit?
+2. Pridat xml parameter.
+3. Data callback (vhodne pro prekodovani do utf8).
+4.
+
+Applied
+=======
