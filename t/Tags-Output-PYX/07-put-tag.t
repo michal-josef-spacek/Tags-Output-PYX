@@ -22,7 +22,7 @@ my $right_ret = <<'END';
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Element.',);
 
 # Test.
 $obj = Tags::Output::PYX->new;
@@ -40,7 +40,7 @@ Aid id_value
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Element with attribute.');
 
 # Test.
 $obj = Tags::Output::PYX->new;
@@ -66,7 +66,7 @@ Aid id_value2
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Two elements with attribute.');
 
 # Test.
 my $long_data = 'a' x 1000;
@@ -83,7 +83,7 @@ $right_ret = <<"END";
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Long data in element.');
 
 # Test.
 $long_data = 'aaaa ' x 1000;
@@ -100,7 +100,7 @@ $right_ret = <<"END";
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Another long data in element.');
 
 # Test.
 $obj = Tags::Output::PYX->new;
@@ -110,4 +110,5 @@ eval {
 		['e', 'MAIN2'],
 	);
 };
-is($EVAL_ERROR, "Ending bad tag: 'MAIN2' in block of tag 'MAIN'.\n");
+is($EVAL_ERROR, "Ending bad tag: 'MAIN2' in block of tag 'MAIN'.\n",
+	"Ending bad tag: 'MAIN2' in block of tag 'MAIN'.");

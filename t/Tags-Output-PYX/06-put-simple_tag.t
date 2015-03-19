@@ -19,7 +19,7 @@ my $right_ret = <<'END';
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple element in uppercase form.');
 
 # Test.
 $obj->reset;
@@ -35,7 +35,7 @@ Aid id_value
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple element with attribute in uppercase form.');
 
 # Test.
 $obj->reset;
@@ -57,7 +57,7 @@ Aid id_value2
 )MAIN
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Two elements with attributes in uppercase form.');
 
 # Test.
 $obj->reset;
@@ -71,7 +71,7 @@ $right_ret = <<'END';
 )main
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple element in lowercase form.');
 
 # Test.
 $obj->reset;
@@ -87,7 +87,7 @@ Aid id_value
 )main
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple element with attribute in lowercase form.');
 
 # Test.
 $obj->reset;
@@ -109,4 +109,4 @@ Aid id_value2
 )main
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Two elements with attributes in lowercase form.');
