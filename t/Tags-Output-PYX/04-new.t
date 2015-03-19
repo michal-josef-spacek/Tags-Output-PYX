@@ -11,19 +11,21 @@ use Test::More 'tests' => 4;
 eval {
 	Tags::Output::PYX->new('');
 };
-is($EVAL_ERROR, "Unknown parameter ''.\n");
+is($EVAL_ERROR, "Unknown parameter ''.\n", "Unknown parameter ''.");
 
 # Test.
 eval {
 	Tags::Output::PYX->new('something' => 'value');
 };
-is($EVAL_ERROR, "Unknown parameter 'something'.\n");
+is($EVAL_ERROR, "Unknown parameter 'something'.\n",
+	"Unknown parameter 'something'.");
 
 # Test.
 eval {
 	Tags::Output::PYX->new('output_handler' => '');
 };
-is($EVAL_ERROR, 'Output handler is bad file handler.'."\n");
+is($EVAL_ERROR, 'Output handler is bad file handler.'."\n",
+	'Output handler is bad file handler.');
 
 # Test.
 my $obj = Tags::Output::PYX->new;

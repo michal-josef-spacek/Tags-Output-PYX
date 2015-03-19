@@ -18,4 +18,4 @@ my $right_ret = <<'END';
 )tag
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple test of flush().');

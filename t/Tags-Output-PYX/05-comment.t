@@ -18,4 +18,4 @@ my $right_ret = <<'END';
 -<!-- comment -->
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple comment test.');

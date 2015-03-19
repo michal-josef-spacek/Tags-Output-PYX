@@ -16,4 +16,4 @@ my $right_ret = <<'END';
 -<?xml version="1.1"?>\n
 END
 chomp $right_ret;
-is($ret, $right_ret);
+is($ret, $right_ret, 'Simple raw data test.');
