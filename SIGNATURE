@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 25094959485360bf29c899935e4e15dda34f58b9 Changes
-SHA1 e274f86dfcc92b6d3243fe3e117da1e4cdfab6c3 LICENSE
-SHA1 b36bb6d81a06ffdefc6a402df665c69b9059772c MANIFEST
-SHA1 1436cf12c0bd6618c00bdff1d644781645d3c34b META.yml
-SHA1 d2f1077b0aeebedbe5462bb6a4ef6913f22c5c86 Makefile.PL
-SHA1 61c7994d3bbbff9f4b213f00d10de856ff5e7493 PYX.pm
-SHA1 3850ceffd6d8c76b6391cbb3353f5e8528285a62 README
+SHA1 125ced0d18cb550ccfaf1d920c354050f9310324 Changes
+SHA1 1179f98d0de353aafbd6ac4d01401f030d8a1003 LICENSE
+SHA1 080ec6e669854f66db07556818817bf7a11f326b MANIFEST
+SHA1 dda899a195ca3cf6095e60a23b5b750946ddd087 META.yml
+SHA1 6fd14fdb37d8254d7f85c7acd0ba3d0a0f017ed8 Makefile.PL
+SHA1 d4a6064ba935078ebacc93a856b74b5df70b204e PYX.pm
+SHA1 82dc56d80317ead50bc72164e402b7d0a4376919 README
 SHA1 f619dcef652f4c9ff859b7a7184bf40579612bb6 examples/ex1.pl
 SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
 SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
@@ -32,27 +32,27 @@ SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.p
 SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
 SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
 SHA1 a8ba99d76e81aebf9f5f15aa6e236109e207aea0 t/Tags-Output-PYX/00-use.t
-SHA1 1f459611b6639cb515f00da85a40a9ee9524b4e3 t/Tags-Output-PYX/01-version.t
+SHA1 a58c1adde0afbb4f49bb655800d89ad4d742b5e9 t/Tags-Output-PYX/01-version.t
 SHA1 ba11d2670269da2d59b2bdceeb510f81feed9eaa t/Tags-Output-PYX/02-pod_coverage.t
 SHA1 3c8bea75fb30827bf6c294fa7273809c6e8c825c t/Tags-Output-PYX/03-pod.t
-SHA1 2b1bc93f33e6257f7842ad34866e54af1493a862 t/Tags-Output-PYX/04-new.t
-SHA1 4e2bbb954603a53dd12161e7e68ce582cee594b8 t/Tags-Output-PYX/05-comment.t
-SHA1 c7c848c358b97d0369c3db4b70b0b673b3703d46 t/Tags-Output-PYX/06-simple_tag.t
-SHA1 dc13c346203cd56e3babde32e82474f7016c3eb4 t/Tags-Output-PYX/07-tag.t
-SHA1 ea5255c3571200ab78111585850ffb4b5b01a5e8 t/Tags-Output-PYX/08-instruction.t
-SHA1 d14a0e91800573fc17777663cd148407d8db6b72 t/Tags-Output-PYX/09-cdata.t
-SHA1 1fa1338e40bad1ca35fbf3705d20b1183e705c29 t/Tags-Output-PYX/10-raw.t
-SHA1 953a4295609d04b680b13f054a94150600fc95dc t/Tags-Output-PYX/11-output_handler.t
-SHA1 3cb49a972b66ec0a25ff2a4769dc994ae78d4785 t/Tags-Output-PYX/12-finalize.t
-SHA1 8633c35297ebca8a6112144043998cffdb65b11c t/Tags-Output-PYX/13-open_tags.t
+SHA1 828e7b8c9cd11c5c6bbc1b6084b711f1ddbc9e42 t/Tags-Output-PYX/04-new.t
+SHA1 ce07051bc33bedc0be6c9e2d76b240b2c575e208 t/Tags-Output-PYX/05-put-comment.t
+SHA1 bec5c29f59bc3a533988d6221804e88c70da4825 t/Tags-Output-PYX/06-put-simple_tag.t
+SHA1 a56573887a94e6b5b0cc0cb752f27c1be7ee515f t/Tags-Output-PYX/07-put-tag.t
+SHA1 ae1a91fe8a16f47c6ef210669453877ca5b0333e t/Tags-Output-PYX/08-put-instruction.t
+SHA1 d3c291a9aa75b8fb4720073f1039998bbd752f45 t/Tags-Output-PYX/09-put-cdata.t
+SHA1 8ccd6131d7f198293f1474fcfd88ddb862c5a507 t/Tags-Output-PYX/10-put-raw.t
+SHA1 fb3437db8bd2109e542b085a5b97a6f55699261a t/Tags-Output-PYX/11-output_handler.t
+SHA1 66476486d0fc1e3ab34d910defdbe632bcde1330 t/Tags-Output-PYX/12-finalize.t
+SHA1 bc1bd6b35cb412cb070db1332b29a7d0cb476234 t/Tags-Output-PYX/13-open_tags.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJUWcZZAAoJEAwa+cf4dLBaddYH/1VxF2GaNa6uLUztDcl+81n+
-QRL6RjGTdBUKZxkxESuIIrgJPPkLzyheUXJmeNgAYp2odZugWH9H5RePs8IKJgep
-zahgPjgbvI516ZL8Ajn/+bFxc7QPpGfaIowDp14Vftc2MpLr0jnQo5p3dNmn3S4U
-z5mohi3bqFKcrLz41wXExTF+BT3qzMU5qihF0JeDGsdEjdvkXpC6h+BNYCJM9xjB
-rFtBlUbFa7M6lCemD0hZ9RT43XYwddd8lc3h2j/bBV1y89Ck6wsOKVpwQT+fa1hW
-okhyi7Brv3iL31dIKdvRxnfYQWKCiIzFhDlXelBaXQRUEYJ9F12rNnzIVBdl2og=
-=XDYj
+iQEcBAEBAgAGBQJVCp60AAoJEJe+XXKaIuTlbjMIAI+f6Lg7vR9xS3LG8my68s1k
+gbX1vTnpCq2+t0+fqmuKLvTcngnDjIhi+AX7dI3YKv3DAv7gDLX7Pd6EMMdyO73r
+m8Gk2Mta/rzapVDpu/hzswTSSiQp7UrRFTuj81wI+aYiA8Szb8ZNdF7R6Oemdp2A
+UW1r97P2qKULT3P+8J7UG0exw4pTc5oPGxv1EwCrwbhqMt6mbZU1vrkSZ/GnjOYO
+0wuZddzmiJMsBI28ANEI4gvQhlVdctS3C5KWLYUFIj1aJr4PPVEgBomIykRVDXpz
+SP4KZ+dzLQnuNqrPcDO0jposlQJodeENr5URYmCPdm1OgeWZC3ycN5YZQkObbJc=
+=zDXE
 -----END PGP SIGNATURE-----
