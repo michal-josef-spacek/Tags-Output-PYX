@@ -1,6 +1,7 @@
 0.02
  - Add comments to tests.
  - Add missing tests for 'Test::NoWarnings'.
+ - Rename tests for put to form ??-put-precision.t .
  - Update LICENSE AND COPYRIGHT section in doc to my standard.
  - Update copyright years.
 
