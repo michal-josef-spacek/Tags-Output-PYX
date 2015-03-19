@@ -5,7 +5,8 @@ use warnings;
 # Modules.
 use File::Object;
 use Tags::Output::PYX;
-use Test::More 'tests' => 2;
+use Test::More 'tests' => 3;
+use Test::NoWarnings;
 use Test::Output;
 
 # Test.

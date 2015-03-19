@@ -4,7 +4,8 @@ use warnings;
 
 # Modules.
 use Tags::Output::PYX;
-use Test::More 'tests' => 6;
+use Test::More 'tests' => 7;
+use Test::NoWarnings;
 
 # Test.
 my $obj = Tags::Output::PYX->new;

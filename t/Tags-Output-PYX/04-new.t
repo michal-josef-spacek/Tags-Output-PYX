@@ -5,7 +5,8 @@ use warnings;
 # Modules.
 use English qw(-no_match_vars);
 use Tags::Output::PYX;
-use Test::More 'tests' => 4;
+use Test::More 'tests' => 5;
+use Test::NoWarnings;
 
 # Test.
 eval {
