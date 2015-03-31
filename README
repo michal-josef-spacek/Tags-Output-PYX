@@ -129,7 +129,7 @@ DEPENDENCIES
     Error::Pure, Readonly, Tags::Output, Tags::Utils.
 
 SEE ALSO
-    Tags, Tags::Output, Tags::Output::Raw.
+    Task::PYX, Task::Tags.
 
 AUTHOR
     Michal Špaček skim@cpan.org

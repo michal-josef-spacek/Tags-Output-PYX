@@ -254,9 +254,8 @@ L<Tags::Utils>.
 
 =head1 SEE ALSO
 
-L<Tags>,
-L<Tags::Output>,
-L<Tags::Output::Raw>.
+L<Task::PYX>,
+L<Task::Tags>.
 
 =head1 AUTHOR
 
