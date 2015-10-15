@@ -254,8 +254,21 @@ L<Tags::Utils>.
 
 =head1 SEE ALSO
 
-L<Task::PYX>,
-L<Task::Tags>.
+=over
+
+=item L<Tags>
+
+Structure oriented SGML/XML/HTML/etc. elements manipulation.
+
+=item L<Task::PYX>
+
+Install the PYX modules.
+
+=item L<Task::Tags>
+
+Install the Tags modules.
+
+=back
 
 =head1 AUTHOR
 

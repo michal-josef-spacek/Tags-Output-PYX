@@ -129,7 +129,14 @@ DEPENDENCIES
     Error::Pure, Readonly, Tags::Output, Tags::Utils.
 
 SEE ALSO
-    Task::PYX, Task::Tags.
+    Tags
+        Structure oriented SGML/XML/HTML/etc. elements manipulation.
+
+    Task::PYX
+        Install the PYX modules.
+
+    Task::Tags
+        Install the Tags modules.
 
 AUTHOR
     Michal Špaček skim@cpan.org
