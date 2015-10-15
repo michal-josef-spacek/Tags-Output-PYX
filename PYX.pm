@@ -15,7 +15,7 @@ Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $SPACE => q{ };
 
 # Version.
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Attributes.
 sub _put_attribute {
@@ -281,6 +281,6 @@ Michal Špaček L<skim@cpan.org>
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
