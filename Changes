@@ -1,4 +1,5 @@
 0.03
+ - Clean Error::Pure structure after error in tests.
  - Improve SEE ALSO section in doc.
  - Move author tests to xt/ directory.
  - Rewrite modules in SEE ALSO section to proper Tasks.
