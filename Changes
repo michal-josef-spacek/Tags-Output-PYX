@@ -1,5 +1,6 @@
 0.03
  - Improve SEE ALSO section in doc.
+ - Move author tests to xt/ directory.
  - Rewrite modules in SEE ALSO section to proper Tasks.
  - Update Module::Install to 1.16 version.
 
