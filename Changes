@@ -1,6 +1,7 @@
 0.04
  - Add REPOSITORY section to doc.
  - Fix Makefile.PL fails with no '.' in @INC.
+ - Fix warnings in tests caused in new version of Tags::Output (RT#132534).
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SYNOPSIS section in doc.
  - Update Module::Install to 1.19 version.

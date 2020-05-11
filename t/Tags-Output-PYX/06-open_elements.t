@@ -7,24 +7,24 @@ use Test::NoWarnings;
 
 # Test.
 my $obj = Tags::Output::PYX->new;
-my @ret = $obj->open_tags;
+my @ret = $obj->open_elements;
 is_deeply(\@ret, []);
 
 # Test.
 $obj->put(
-	['b', 'tag'],
+	['b', 'element'],
 );
-@ret = $obj->open_tags;
-is_deeply(\@ret, ['tag']);
+@ret = $obj->open_elements;
+is_deeply(\@ret, ['element']);
 
 # Test.
 $obj->put(
-	['b', 'other_tag'],
+	['b', 'other_element'],
 );
-@ret = $obj->open_tags;
-is_deeply(\@ret, ['other_tag', 'tag']);
+@ret = $obj->open_elements;
+is_deeply(\@ret, ['other_element', 'element']);
 
 # Test.
 $obj->finalize;
-@ret = $obj->open_tags;
+@ret = $obj->open_elements;
 is_deeply(\@ret, []);
