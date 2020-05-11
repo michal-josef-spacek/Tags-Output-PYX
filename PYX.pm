@@ -12,7 +12,7 @@ use Tags::Utils qw(encode_newline);
 Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $SPACE => q{ };
 
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 # Attributes.
 sub _put_attribute {
@@ -282,6 +282,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
