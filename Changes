@@ -1,4 +1,4 @@
-0.04
+0.04 2020-05-11T15:37:49+02:00
  - Add REPOSITORY section to doc.
  - Fix Makefile.PL fails with no '.' in @INC.
  - Fix warnings in tests caused in new version of Tags::Output (RT#132534).
