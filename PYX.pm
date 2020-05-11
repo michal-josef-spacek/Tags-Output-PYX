@@ -1,11 +1,9 @@
 package Tags::Output::PYX;
 
-# Pragmas.
 use base qw(Tags::Output);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure qw(err);
 use Readonly;
 use Tags::Utils qw(encode_newline);
@@ -14,7 +12,6 @@ use Tags::Utils qw(encode_newline);
 Readonly::Scalar my $EMPTY_STR => q{};
 Readonly::Scalar my $SPACE => q{ };
 
-# Version.
 our $VERSION = 0.04;
 
 # Attributes.
@@ -210,11 +207,9 @@ __END__
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Tags::Output::PYX;
 
  # Object.

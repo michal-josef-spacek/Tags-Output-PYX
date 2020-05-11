@@ -90,11 +90,9 @@ ERRORS
              Ending bad tag: '%s' in block of tag '%s'.
 
 EXAMPLE
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Tags::Output::PYX;
 
      # Object.
