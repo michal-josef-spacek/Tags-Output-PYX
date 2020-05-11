@@ -102,6 +102,7 @@ __END__
 =head1 SYNOPSYS
 
  use Tags::Output::PYX;
+
  my $obj = Tags::Output::PYX->new(%parameters);
  $obj->finalize;
  my $ret = $obj->flush($reset_flag);
