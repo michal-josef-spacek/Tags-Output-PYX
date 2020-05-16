@@ -33,6 +33,7 @@ test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Output' => 1.02;
 test_requires 'Test::Warn' => 0;
+test_requires 'version' => 0.77;
 tests_recursive;
 version '0.05';
 
