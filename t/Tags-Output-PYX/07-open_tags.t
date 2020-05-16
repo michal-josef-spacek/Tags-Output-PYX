@@ -23,7 +23,7 @@ if ($tags_output_version < $tags_output_supported_version) {
 		@ret = $obj->open_tags;
 	} qr{^Method open_tags\(\) is deprecated at}, 'Deprecation warning.';
 }
-is_deeply(\@ret, []);
+is_deeply(\@ret, [], 'No open tags in begin.');
 
 # Test.
 $obj->put(
@@ -39,7 +39,7 @@ if ($tags_output_version < $tags_output_supported_version) {
 		@ret = $obj->open_tags;
 	} qr{^Method open_tags\(\) is deprecated at}, 'Deprecation warning.';
 }
-is_deeply(\@ret, ['tag']);
+is_deeply(\@ret, ['tag'], "Element 'tag' is opened.");
 
 # Test.
 $obj->put(
@@ -55,7 +55,7 @@ if ($tags_output_version < $tags_output_supported_version) {
 		@ret = $obj->open_tags;
 	} qr{^Method open_tags\(\) is deprecated at}, 'Deprecation warning.';
 }
-is_deeply(\@ret, ['other_tag', 'tag']);
+is_deeply(\@ret, ['other_tag', 'tag'], 'Two elements are opened.');
 
 # Test.
 $obj->finalize;
@@ -69,4 +69,4 @@ if ($tags_output_version < $tags_output_supported_version) {
 		@ret = $obj->open_tags;
 	} qr{^Method open_tags\(\) is deprecated at}, 'Deprecation warning.';
 }
-is_deeply(\@ret, []);
+is_deeply(\@ret, [], 'No opened elements after finalize().');

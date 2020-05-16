@@ -1,5 +1,6 @@
 0.05
  - Add new open_elements() method to doc.
+ - Add test messages to tests.
  - Fix testing with both version of Tags::Output (<0.09 and >=0.09)
    RT#132534.
  - Rewrite doc to use =head2 for methods.
